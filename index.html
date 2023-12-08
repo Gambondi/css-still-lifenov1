@@ -25,12 +25,12 @@
     width: 210px;
     height: 300px;
     border: 1px solid orange;
-    background: rgb(171,93,30);
+    background: radial-gradient(circle, rgba(255,109,0,1) 69%, rgba(39,38,38,1) 97%);;
     clip-path: polygon(40% 10%, 4% 31%, 17% 57%, 19% 79%, 65% 80%, 72% 24%, 58% 17%, 48% 14%, 50% 0, 38% 0, 40% 14%, 27% 18%);
   }
 
   .caf-middle {
-    background-color: orange;
+		background: radial-gradient(circle, rgba(255,109,0,1) 69%, rgba(39,38,38,1) 97%);
     width: 70%;
     height: 55%;
     
@@ -45,7 +45,7 @@
     width: 180px;
     height: 230px;
     background-color: yellow;
-    border: 5px solid red;
+    ;
   }
 
   .left-can {
@@ -53,19 +53,22 @@
     top: 250px;
     left: 150px;
     z-index: 30;
+  	background: linear-gradient(97deg, rgba(244,215,4,1) 65%, rgba(0,0,0,1) 100%, rgba(36,28,0,1) 100%);
+    
   }
 
   .right-can {
     position: absolute;
     top: 250px;
     left: 300px;
+		background: linear-gradient(279deg, rgba(244,215,4,1) 36%, rgba(0,0,0,1) 100%, rgba(36,28,0,1) 100%);
   }
 
   .cup {
     border: 1px solid black;
     width: 85px;
     height: 92px;
-    background-color: white;
+		background: radial-gradient(circle, rgba(255,255,255,1) 87%, rgba(39,38,38,1) 100%);
   }
 
   .main-cup {
@@ -151,8 +154,16 @@
     font-weight: 900;
   }
   
-  .redcolor {
-    background-color: red;
+  .redcolorL {
+    background: linear-gradient(96deg, rgba(255,5,5,1) 62%, rgba(0,0,0,1) 90%);;
+    width: 100%;
+    height: 23px;
+    position: absolute;
+    bottom: 0px;
+  }
+  
+  .redcolorR {
+    background: linear-gradient(267deg, rgba(255,5,5,1) 62%, rgba(0,0,0,1) 90%);
     width: 100%;
     height: 23px;
     position: absolute;
@@ -168,7 +179,7 @@
   
   <div class="bustello right-can">
     <div class="wordsR">CAFE</div>
-    <div class="redcolor"></div>
+    <div class="redcolorR"></div>
   </div>
    
 
@@ -178,7 +189,7 @@
     <div class="wordsR">CAFE</div>
 
     <div class="wordsL">Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful contentLorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content..</div>
-    <div class="redcolor"></div>
+    <div class="redcolorL"></div>
   </div>
 
   <div class="cup main-cup">
